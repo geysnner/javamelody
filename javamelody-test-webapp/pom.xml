@@ -158,7 +158,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>5.3.18</version>
+			<version>5.3.27</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -179,7 +179,7 @@
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-mongodb</artifactId>
-			<version>3.3.3</version>
+			<version>3.4.11</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mongodb</groupId>
@@ -271,8 +271,7 @@
 					<contextPath>/</contextPath>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<connectors>
-						<connector
-							implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
+						<connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
 							<port>8080</port>
 							<maxIdleTime>60000</maxIdleTime>
 						</connector>
