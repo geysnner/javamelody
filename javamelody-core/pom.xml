@@ -226,7 +226,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>5.3.18</version>
+			<version>5.3.27</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -238,7 +238,7 @@
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-mongodb</artifactId>
-			<version>3.3.3</version>
+			<version>3.4.11</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -278,7 +278,7 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-cloudwatch</artifactId>
-			<version>1.11.136</version>
+			<version>1.12.496</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
