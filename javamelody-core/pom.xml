@@ -220,7 +220,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
-			<version>5.3.18</version>
+			<version>5.3.34</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -250,7 +250,7 @@
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-elasticsearch</artifactId>
-			<version>4.3.3</version>
+			<version>4.4.0</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
